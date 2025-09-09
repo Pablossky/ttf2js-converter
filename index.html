@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>TTF → JS Converter</title>
+<style>
+  body { font-family: sans-serif; text-align: center; padding: 20px; background: #f0f0f0; }
+  #dropZone { border: 2px dashed #888; padding: 50px; margin: 20px; background: #fff; transition: 0.3s; }
+  #dropZone.dragover { border-color: #4CAF50; background: #e8ffe8; }
+  button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+  #status { margin-top: 20px; font-weight: bold; }
+</style>
+</head>
+<body>
+<h1>TTF → JS Converter</h1>
+<div id="dropZone">Przeciągnij plik TTF tutaj</div>
+<button id="chooseBtn">Wybierz plik TTF</button>
+<div id="status"></div>
+<script src="renderer.js"></script>
+</body>
+</html>
