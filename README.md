@@ -1,1 +1,1 @@
-"# ttf2js-converter" 
+TTF to JS converter
